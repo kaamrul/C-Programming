@@ -14,3 +14,99 @@ int main()
     }
 }
 ```
+
+**02. Write a C program to find the sum of first 10 natural numbers**
+
+```.c
+#include<stdio.h>
+int main()
+{
+    int i, sum = 0;
+    printf("Sum of The First 10 Natural Number is : ");
+    for( i = 1; i <= 10; i++)
+    {
+
+        sum = sum + i;
+    }
+    printf("%d ", sum);
+}
+```
+
+**03. Write a program in C to display n terms of natural number and their sum**
+
+```.c
+#include<stdio.h>
+int main()
+{
+    int i, n, sum = 0;
+    printf("Input Value of terms: ");
+    scanf("%d", &n);
+    printf("\nThe first %d natural number is : ", n);
+    for( i = 1; i <= n; i++)
+    {
+        printf("%d", i);
+        sum = sum + i;
+    }
+    printf("\n\nThe Sum of Natural Number up to 7 terms : %d ", sum);
+    printf("\n\n");
+}
+
+```
+
+**04. Write a program in C to read 10 numbers from keyboard and find their sum and average**
+
+```.c
+#include<stdio.h>
+int main()
+{
+    int i, sum = 0;
+    float n, average;
+    printf("Input The number what you want :");
+    scanf("%f", &n);
+    for(i=1; i<=n; i++)
+    {
+        sum = sum + i;
+    }
+    printf("The sum of given number is : %d", sum);
+    average = sum / n;
+    printf("\nThe Average is : %.2f", average);
+    printf("\n");
+}
+```
+
+**05. Write a program in C to display the cube of the number up to given an integer**
+
+```.c
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int i, n, cube;
+    printf("Inputs the number of terms : ");
+    scanf("%d", &n);
+    for(i=1; i<=n; i++)
+    {
+        cube = pow(i,3);
+        printf("\nNumber is : %d and cube of the %d is :%d ", i, i, cube);
+    }
+    printf("\n");
+}
+```
+
+**06. Write a program in C to display the multiplication table of a given integer**
+
+```.c
+#include<stdio.h>
+int main()
+{
+    int i, n, mul;
+    printf("Enter the expected number that you want :");
+    scanf("%d", &n);
+    for(i =1; i<=10; i++)
+    {
+        mul = n*i;
+        printf("\n%d * %d = %d", n, i, mul);
+    }
+    printf("\n");
+}
+```
