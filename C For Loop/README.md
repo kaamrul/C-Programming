@@ -508,3 +508,5 @@ int main()
     printf("\nSum of the Series are : %d", sum);
 }
 ```
+
+## Happy Coading
