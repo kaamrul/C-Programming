@@ -111,7 +111,7 @@ int main()
 }
 ```
 
-** 07. Write a program in C to display the multipliaction table vertically from 1 to n **
+**07. Write a program in C to display the multipliaction table vertically from 1 to n**
 
 ```.c
 #include<stdio.h>
@@ -132,7 +132,7 @@ int main()
 }
 ```
 
-** 08. Write a program in C to display the n terms of odd natural number and their sum **
+**08. Write a program in C to display the n terms of odd natural number and their sum**
 
 ```.c
 #include<stdio.h>
@@ -153,7 +153,7 @@ int main()
 }
 ```
 
-** 09. Write a program in C to display the pattern like right angle triangle using an asterisk **
+**09. Write a program in C to display the pattern like right angle triangle using an asterisk**
 
 ```.c
 #include<stdio.h>
@@ -173,7 +173,7 @@ int main()
 }
 ```
 
-** 10. Write a program in C to display the pattern like right angle triangle with a number **
+**10. Write a program in C to display the pattern like right angle triangle with a number**
 
 ```.c
 #include<stdio.h>
@@ -193,7 +193,7 @@ int main()
 }
 ```
 
-** 11. Write a program in C to make such a pattern like right angle triangle with a number which will repeat a number in a row **
+**11. Write a program in C to make such a pattern like right angle triangle with a number which will repeat a number in a row**
 
 ```.c
 #include<stdio.h>
@@ -213,7 +213,7 @@ int main()
 }
 ```
 
-** 12. Write a program in C to make such a pattern like right angle triangle with number increased by 1 **
+**12. Write a program in C to make such a pattern like right angle triangle with number increased by 1**
 
 ```.c
 #include<stdio.h>
@@ -234,7 +234,7 @@ int main()
 }
 ```
 
-** 13. Write a program in C to make such a pattern like a pyramid with numbers increased by 1 **
+**13. Write a program in C to make such a pattern like a pyramid with numbers increased by 1**
 
 ```.c
 #include<stdio.h>
@@ -257,7 +257,7 @@ int main()
 }
 ```
 
-** 14. Write a program in C to make such a pattern like a pyramid with an asterisk **
+**14. Write a program in C to make such a pattern like a pyramid with an asterisk**
 
 ```.c
 #include<stdio.h>
@@ -282,7 +282,7 @@ int main()
 }
 ```
 
-** 15. Write a C program to calculate the factorial of a given number **
+**15. Write a C program to calculate the factorial of a given number**
 
 ```.c
 #include<stdio.h>
@@ -300,7 +300,7 @@ int main()
 }
 ```
 
-** 16. Write a program in C to display the n terms of even natural number and their sum **
+**16. Write a program in C to display the n terms of even natural number and their sum**
 
 ```.c
 #include<stdio.h>
@@ -320,7 +320,7 @@ int main()
 }
 ```
 
-** 17. Write a program in C to make such a pattern like a pyramid with a number which will repeat the number in the same row **
+**17. Write a program in C to make such a pattern like a pyramid with a number which will repeat the number in the same row**
 
 ```.c
 #include<stdio.h>
@@ -343,7 +343,7 @@ int main()
 }
 ```
 
-** 19. Write a program in C to display the n terms of harmonic series and their sum **
+**19. Write a program in C to display the n terms of harmonic series and their sum**
 
 ```.c
 #include<stdio.h>
@@ -363,7 +363,7 @@ int main()
 }
 ```
 
-** 20. Write a program in C to display the pattern like a pyramid using asterisk and each row contain an odd number of asterisks **
+**20. Write a program in C to display the pattern like a pyramid using asterisk and each row contain an odd number of asterisks**
 
 ```.c
 #include<stdio.h>
@@ -385,7 +385,7 @@ int main()
 }
 ```
 
-** 21. Write a program in C to display the sum of the series [ 9 + 99 + 999 + 9999 ...] **
+**21. Write a program in C to display the sum of the series [ 9 + 99 + 999 + 9999 ...]**
 
 ```.c
 #include<stdio.h>
@@ -404,7 +404,7 @@ int main()
 }
 ```
 
-** 22. Write a program in C to print the Floyd's Triangle **
+**22. Write a program in C to print the Floyd's Triangle**
 
 ```.c
 #include<stdio.h>
@@ -437,7 +437,7 @@ int main()
 }
 ```
 
-** 23. Write a program in C to display the sum of the series **
+**23. Write a program in C to display the sum of the series**
 
 ```.c
 #include<stdio.h>
@@ -458,7 +458,7 @@ int main()
 }
 ```
 
-** 24. Write a program in C to find the sum of the series [ x - x^3 + x^5 + ......] **
+**24. Write a program in C to find the sum of the series [ x - x^3 + x^5 + ......]**
 
 ```.c
 #include<stdio.h>
@@ -484,7 +484,7 @@ int main()
     printf("\nSum of the Series are : %d", sum);
 }
 ```
-** 24.1 Write a program in C to find the sum of the series [ x + x^3 + x^5 + ......] **
+**24.1 Write a program in C to find the sum of the series [ x + x^3 + x^5 + ......]**
 
 ```.c
 #include<stdio.h>
