@@ -509,4 +509,4 @@ int main()
 }
 ```
 
-## Happy Coading
+## Happy Coding
