@@ -152,3 +152,23 @@ int main()
     printf("\n");
 }
 ```
+
+** 09. Write a program in C to display the pattern like right angle triangle using an asterisk **
+
+```.c
+#include<stdio.h>
+int main()
+{
+    int i, j, n;
+    printf("Enter the number of input whatever you want : ");
+    scanf("%d", &n);
+    for(i=1; i<=n; i++)
+    {
+        for(j=1; j<=i; j++)
+        {
+            printf("*", j);
+        }
+        printf("\n");
+    }
+}
+```
