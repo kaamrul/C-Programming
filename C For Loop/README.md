@@ -281,3 +281,21 @@ int main()
     }
 }
 ```
+
+** 15. Write a C program to calculate the factorial of a given number **
+
+```.c
+#include<stdio.h>
+int main()
+{
+    int i, n, fact = 1;
+    printf("Input the number of Factorial :");
+    scanf("%d", &n);
+    for(i=1; i<=n; i++)
+    {
+        fact = fact*i;
+    }
+    printf("The Factorial of %d is %d: ", n, fact);
+    getch();
+}
+```
