@@ -319,3 +319,26 @@ int main()
     printf("\nThe Sum of even Natural Number up to %d terms : %d", n, sum);
 }
 ```
+
+** 17. Write a program in C to make such a pattern like a pyramid with a number which will repeat the number in the same row **
+
+```.c
+#include<stdio.h>
+int main()
+{
+    int i, j, n;
+    printf("Enter the number of Input :");
+    scanf("%d", &n);
+    for(i=1; i<=n; i++)
+    {
+        for(j=1; j<=n; j++)
+        {
+            if(j <= n-i)
+                printf(" ");
+            else
+                printf("%d ", i);
+        }
+       printf("\n");
+    }
+}
+```
